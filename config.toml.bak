@@ -3,44 +3,38 @@ ignore_colors = [
 	# [0, 0, 0, 255], # filter all black
 ]
 
-version = 10
+version = 11
 
 [priorities]
 "1" = 1
 "2" = 5
 "3" = 10
+"4" = 15
 
 [[structure]]
-name = "rplacede_schriftzug"
-file = "images/rplacede_schriftzug.png"
-startx = 0
-starty = 856
+name = "TransPlaceStripe"
+file = "images/TransPlaceStripeDefend.png"
+startx = 701
+starty = 430
+priority = 1
+
+[[structure]]
+name = "TransFlagDefense"
+file = "images/TransPlaceDefend.png"
+startx = 687
+starty = 430
+priority = 2
+
+[[structure]]
+name = "TransPlaceWhite"
+file = "images/TransPlaceWhite.png"
+startx = 688
+starty = 433
 priority = 3
 
 [[structure]]
-name = "maus"
-file = "images/maus.png"
-startx = 58
-starty = 832
-priority = 2
-
-[[structure]]
-name = "adler"
-file = "images/adler.png"
-startx = 254
-starty = 830
-priority = 2
-
-[[structure]]
-name = "brot"
-file = "images/brot.png"
-startx = 169
-starty = 830
-priority = 2
-
-[[structure]]
-name = "saeule"
-file = "images/saeule.png"
-startx = 431
-starty = 829
-priority = 2
+name = "TransPlaceGrey"
+file = "images/TransPlaceGrey.png"
+startx = 689
+starty = 434
+priority = 4
