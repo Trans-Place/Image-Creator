@@ -16,7 +16,7 @@ name = "TransPlaceStripe"
 file = "images/TransPlaceStripeDefend.png"
 startx = 701
 starty = 430
-priority = 1
+priority = 3
 
 [[structure]]
 name = "TransFlagDefense"
@@ -30,11 +30,11 @@ name = "TransPlaceWhite"
 file = "images/TransPlaceWhite.png"
 startx = 688
 starty = 433
-priority = 3
+priority = 1
 
 [[structure]]
 name = "TransPlaceGrey"
 file = "images/TransPlaceGrey.png"
 startx = 689
 starty = 434
-priority = 4
+priority = 1
