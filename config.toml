@@ -1,0 +1,18 @@
+ignore_colors = [
+	[0, 0, 0, 0],
+	# [0, 0, 0, 255], # filter all black
+]
+
+version = 10
+
+[priorities]
+"1" = 1
+"2" = 5
+"3" = 10
+
+[[structure]]
+name = "TransFlag"
+file = "images/TransFlag.png"
+startx = 702
+starty = 430
+priority = 1
